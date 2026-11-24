@@ -628,6 +628,13 @@ body {
 .project-name { font-size: 3.1rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.6rem;
   background: linear-gradient(120deg, #7cc0ff, #5ee0c8); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .paper-title { text-wrap: balance; }
+.prev-work { position: absolute; top: 1.1rem; right: 1.4rem; z-index: 2; display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.42rem 0.85rem; border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; text-decoration: none;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); backdrop-filter: blur(4px); transition: background 0.2s, border-color 0.2s; }
+.prev-work:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.4); color: #fff; }
+.prev-work .prev-label { font-weight: 500; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; }
+.prev-work i { font-size: 0.72rem; opacity: 0.8; }
+@media (max-width: 768px) { .prev-work { position: static; display: flex; width: fit-content; margin: -1rem auto 1.4rem; font-size: 0.8rem; } }
 @media (max-width: 768px) { .paper-title br { display: none; } }
 @media (max-width: 480px) { .project-name { font-size: 2.3rem; } }
 .aff-logo { height: 30px; vertical-align: middle; margin-left: 8px; border-radius: 4px; }
