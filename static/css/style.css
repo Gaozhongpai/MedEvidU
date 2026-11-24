@@ -677,6 +677,8 @@ code { font-family: 'Source Code Pro', monospace; font-size: 0.88em; background:
 .results-table tbody tr td.gain { background: #dcf3e3 !important; }
 .table-note { font-size: 0.82rem; color: var(--gray); margin-top: 0.9rem; line-height: 1.6; }
 .gain-key { background: #dcf3e3; padding: 0 0.35rem; border-radius: 3px; }
+.results-table tbody tr td.loss { background: #fbe0e0 !important; }
+.loss-key { background: #fbe0e0; padding: 0 0.35rem; border-radius: 3px; }
 .qual-item .fig-caption { text-align: left; }
 .qual-img { max-width: 1040px; }
 .qual-item .fig-caption, .qual-item .qual-title { max-width: 1040px; margin-left: auto; margin-right: auto; }
